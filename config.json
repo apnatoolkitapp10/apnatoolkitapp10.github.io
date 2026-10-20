@@ -1,6 +1,6 @@
 {
-  "version": 2,
-  "updated": "2026-10-13",
+  "version": 3,
+  "updated": "2026-10-20",
   "ads": {
     "enabled": true,
     "banner": true,
@@ -42,16 +42,6 @@
       "items": [
         {"type": "photo", "width": 600, "height": 600, "minKb": 20, "maxKb": 300},
         {"type": "signature", "width": 0, "height": 0, "minKb": 20, "maxKb": 300}
-      ]
-    },
-    {
-      "id": "nta",
-      "name": "NTA (NEET UG, JEE Main, CUET)",
-      "source": "https://nta.ac.in",
-      "items": [
-        {"type": "photo", "width": 350, "height": 450, "minKb": 10, "maxKb": 200},
-        {"type": "postcard", "width": 600, "height": 900, "minKb": 10, "maxKb": 200},
-        {"type": "signature", "width": 0, "height": 0, "minKb": 4, "maxKb": 30}
       ]
     }
   ],
