@@ -1,6 +1,6 @@
 {
-  "version": 3,
-  "updated": "2026-10-20",
+  "version": 4,
+  "updated": "2026-10-25",
   "ads": {
     "enabled": true,
     "banner": true,
@@ -14,54 +14,6 @@
     "appOpenMinGapMinutes": 240
   },
   "reviewAfterTasks": 3,
-  "examPresets": [
-    {
-      "id": "ssc",
-      "name": "SSC (CGL, CHSL, MTS, GD, JE)",
-      "source": "https://ssc.gov.in",
-      "items": [
-        {"type": "photo", "width": 350, "height": 450, "minKb": 20, "maxKb": 50, "dpi": 100},
-        {"type": "signature", "width": 600, "height": 200, "minKb": 10, "maxKb": 20, "dpi": 100}
-      ]
-    },
-    {
-      "id": "ibps",
-      "name": "IBPS (Bank PO, Clerk, RRB)",
-      "source": "https://www.ibps.in",
-      "items": [
-        {"type": "photo", "width": 200, "height": 230, "minKb": 20, "maxKb": 50},
-        {"type": "signature", "width": 140, "height": 60, "minKb": 10, "maxKb": 20},
-        {"type": "thumb", "width": 240, "height": 240, "minKb": 20, "maxKb": 50},
-        {"type": "declaration", "width": 800, "height": 400, "minKb": 50, "maxKb": 100}
-      ]
-    },
-    {
-      "id": "upsc",
-      "name": "UPSC (CSE, NDA, CDS and others)",
-      "source": "https://upsconline.gov.in",
-      "items": [
-        {"type": "photo", "width": 600, "height": 600, "minKb": 20, "maxKb": 300},
-        {"type": "signature", "width": 0, "height": 0, "minKb": 20, "maxKb": 300}
-      ]
-    }
-  ],
-  "banks": [
-    {"name": "State Bank of India (SBI)", "balance": "09223766666", "mini": "09223866666"},
-    {"name": "HDFC Bank", "balance": "18002703333", "mini": "18002703355"},
-    {"name": "ICICI Bank", "balance": "9594612612", "mini": "9594613613"},
-    {"name": "Axis Bank", "balance": "18004195959", "mini": "18004196969"},
-    {"name": "Punjab National Bank (PNB)", "balance": "18001802223", "mini": ""},
-    {"name": "Bank of Baroda", "balance": "8468001111", "mini": "8468001122"},
-    {"name": "Canara Bank", "balance": "09015483483", "mini": "09015734734"},
-    {"name": "Union Bank of India", "balance": "09223008586", "mini": ""},
-    {"name": "Bank of India", "balance": "09015135135", "mini": ""},
-    {"name": "Kotak Mahindra Bank", "balance": "18002740110", "mini": ""},
-    {"name": "IDBI Bank", "balance": "18008431122", "mini": "18008431133"},
-    {"name": "Yes Bank", "balance": "09223920000", "mini": ""},
-    {"name": "IndusInd Bank", "balance": "18002741000", "mini": ""},
-    {"name": "Federal Bank", "balance": "8431900900", "mini": ""},
-    {"name": "Indian Overseas Bank", "balance": "04442220004", "mini": ""},
-    {"name": "Bank of Maharashtra", "balance": "9222281818", "mini": ""},
-    {"name": "UCO Bank", "balance": "9278792787", "mini": ""}
-  ]
+  "examPresets": [],
+  "banks": []
 }
